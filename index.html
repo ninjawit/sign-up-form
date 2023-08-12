@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="left-background">
+    <img class="background-img" src="./images/background-image.jpg" alt="Warrior overlooking a snowy mountain" />
+    <div class="logo-container">
+      <img class="logo-img" src="./images/logo-alt.png" alt="Skyrim logo" />
+      <p class="logo-text">Skyrim</p>
+    </div>
+    <p class="img-credit">Click <a href="https://www.pinterest.com/pin/489836896986078428/">here</a> for background
+      image
+      credit.</p>
+  </div>
+  <div class="right-background">
+    <div class="top-right-container">
+      <p>
+        Only the bravest warriors are capable of
+        withstanding the daunting and
+        treacherous perils that await in Skyrim. Are you
+        one of the few and proud? Then join us...
+      </p>
+    </div>
+    <form>
+      <h2>I will answer the call:</h2>
+      <div class="input-container" id="first">
+        <label for="first-name">FIRST NAME</label>
+        <input type="text" id="first-name" name="first-name" />
+      </div>
+      <div class="input-container" id="last">
+        <label for="last-name">LAST NAME</label>
+        <input type="text" id="last-name" name="last-name" />
+      </div>
+      <div class="input-container" id="mail">
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="input-container" id="phone">
+        <label for="tel">PHONE NUMBER</label>
+        <input type="tel" id="tel" name="tel" />
+      </div>
+      <div class="input-container" id="pass">
+        <label for="pw">PASSWORD</label>
+        <input type="password" id="pw" name="pw" />
+      </div>
+      <div class="input-container" id="confirm">
+        <label for="confirm-pw">CONFIRM PASSWORD</label>
+        <input type="password" id="confirm-pw" name="confirm-pw" />
+      </div>
+      <button>Create Account</button>
+    </form>
+    <div class="bottom-right-container">
+      <p>
+        Already have an account?
+        <a href="https://elderscrolls.bethesda.net/en/skyrim">Log in</a>
+      </p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
