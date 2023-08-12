@@ -22,7 +22,7 @@ body {
 
 .logo-container {
   position: absolute;
-  top: 112px;
+  top: 108px;
 
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -126,4 +126,16 @@ button {
 
 h2 {
   margin-bottom: 0;
+}
+
+input {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  height: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid cornflowerblue;
+  box-shadow: 1px 1px 1px 1px gray;
 }
